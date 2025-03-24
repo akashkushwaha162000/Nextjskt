@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { revalidate } from "next";
+
+export const dynamic = "force-dynamic";
 
 export const revalidate = 10;
 const dateTime = new Date();
